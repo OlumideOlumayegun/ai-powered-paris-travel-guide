@@ -2,7 +2,7 @@
 
 ![eiffel-tower](images/eiffel-tower.png)
 
-A small Python project that uses the OpenAI API to answer predefined tourist questions about Paris for **Peterman Reality Tours**.
+A small Python project that uses the OpenAI API to answer predefined tourist questions about Paris for **Tour Company**.
 
 ## Project goal
 
