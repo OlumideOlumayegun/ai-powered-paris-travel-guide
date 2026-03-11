@@ -26,8 +26,9 @@ The implementation follows the hands-on project requirements:
 ## Repository structure
 
 ```text
-paris-travel-guide-repo/
+ai-powered-paris-travel-guide/
 ├── app.py
+├── notebook.ipynb
 ├── README.md
 ├── requirements.txt
 ├── .env.example
