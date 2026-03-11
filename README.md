@@ -1,5 +1,7 @@
 # AI-Powered Paris Travel Guide
 
+![eiffel-tower](images/eiffel-tower.png)
+
 A small Python project that uses the OpenAI API to answer predefined tourist questions about Paris for **Peterman Reality Tours**.
 
 ## Project goal
@@ -37,8 +39,8 @@ paris-travel-guide-repo/
 ### 1. Clone the repo
 
 ```bash
-git clone <your-repo-url>
-cd paris-travel-guide-repo
+git clone https://github.com/OlumideOlumayegun/ai-powered-paris-travel-guide.git
+cd ai-powered-paris-travel-guide
 ```
 
 ### 2. Create and activate a virtual environment
@@ -141,6 +143,3 @@ The request uses:
 - If your account uses a different available model, you can replace `gpt-4o-mini` in `app.py`.
 - Exact wording may vary slightly across runs, but `temperature=0.0` reduces variation.
 
-## License
-
-This project is provided for educational and assignment use.
