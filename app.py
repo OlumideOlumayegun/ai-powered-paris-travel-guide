@@ -1,9 +1,14 @@
+import os
+from dotenv import load_dotenv
 from openai import OpenAI
+
+# Load environment variables from .env
+load_dotenv()
 
 
 def main() -> None:
     """Run a simple AI-powered Paris travel guide conversation."""
-    client = OpenAI()
+    client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
     model = "gpt-4o-mini"
 
     conversation = [
